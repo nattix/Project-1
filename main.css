@@ -93,7 +93,7 @@ body {
     display: inline-block;
     float: right;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
     width: 300px;
 }
 
@@ -101,37 +101,26 @@ body {
     clear: both;
     display: inline-block;
 	text-align: center;
+    width: 300px;
 }
 
-#content aside .form .form-name {
-    display: block;
-    text-align: center;
-    width: 290px;
-    height: 15px;
-    margin: 5px;
+#content aside .form .form-row {
+  display: block;
+  width: 100%;
+  padding: 5px;
 }
 
-#content aside .form .form-surname {
-    display: block;
-    text-align: center;
-    width: 290px;
-    height: 15px;
-    margin: 5px;
+#content aside .form .form-row .form-label {
+  display: block;
 }
 
-#content aside .form .form-comment {
-    display: block;
-    text-align: center;
-    width: 290px;
-    height: 100px;
-    margin: 5px;
+#content aside .form .form-row .form-control {
+  box-sizing: border-box; 
+  width: 100%;
 }
 
-#content aside .form .submit-button {
-    display: inline-block;
-    text-align: center;
-    width: 100px;
-    margin: 10px;
+#content aside .form .form-row .submit-button {
+  width:  100px;
 }
 
 #footer .info {

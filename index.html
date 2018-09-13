@@ -34,15 +34,23 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
 		<aside>
-			<div class="form">
-                <label>Name</label>
-                <textarea class="form-name"></textarea>
-                <label>Surame</label>
-                <textarea class="form-surname"></textarea>
-                <label>Comment</label>
-                <textarea class="form-comment"></textarea>
-                <button type="submit" class="submit-button">Send</button>
-			</div>
+            <form class="form">
+                <div class="form-row">
+                    <label for="first-name" class="form-label">First Name</label>
+                    <input type="text" id="first-name" class="form-control first-name" placeholder="First name">
+                </div>
+                <div class="form-row">
+                    <label for="last-name" class="form-label">Last Name</label>
+                    <input type="text" id="last-name" class="form-control last-name" placeholder="Last name">
+                </div>
+                <div class="form-row">
+                    <label for="comments" class="form-label">Last Name</label>
+                    <textarea id="comments" cols="20" rows="10" class="form-control comments" placeholder="Type your comments here"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
 		</aside>
 	</article>
 </section>
