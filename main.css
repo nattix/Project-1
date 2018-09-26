@@ -168,30 +168,30 @@ body {
 
 @media (min-width: 1050px) {
     .container {width: 1000px;}
-    aside {width: 30%}
-    .banner-container .description {width: 65%}
+    aside {width: 30%;}
+    .banner-container .description {width: 65%;}
 }
 
 @media (max-width: 1050px) and (min-width: 950px) {
     .container {width: 900px;}
-    aside {width: 30%}
-    .banner-container .description {width: 65%}
+    aside {width: 30%;}
+    .banner-container .description {width: 65%;}
 }
 
 @media (max-width: 950px) and (min-width: 750px) {
     .container {width: 700px;}
-    aside {width: 30%}
-    .banner-container .description {width: 65%}
+    aside {width: 30%;}
+    .banner-container .description {width: 65%;}
 }
 
 @media (max-width: 750px) and (min-width: 450px) {
     .container {width: 400px;}
     aside,
-    .banner-container .description {width: 100%}
+    .banner-container .description {width: 100%;}
 }
 
 @media (max-width: 450px) {
     .container {width: 90%;}
     aside,
-    .banner-container .description {width: 100%}
+    .banner-container .description {width: 100%;}
 }
